@@ -1,0 +1,109 @@
+.dropdown {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 6rem;
+    
+}
+
+.option1  {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+    height: 40px;
+    margin: 0 0 0 25px;
+    padding: 10px;
+    width: 110px;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.Background{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start    ;
+    font-family: 'Nunito', sans-serif;
+
+    height: 100vh;
+    width: 100%;
+    background-image:url(ii.jpg);
+    background-size: stretch;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav.logo{
+    padding:22px 20px;
+    height:80px;
+    float:left;
+    background-color: white;
+    background-image:url(./logo.jpg);
+}
+
+nav ul {
+    list-style: none;
+    float:right;
+    margin:0;
+    padding:0;
+    display: flex;
+}       
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: rgb(85, 207, 211);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background:rgba(255, 241, 241, 0.7);
+    border-radius: 6px;
+}
+
+nav ul li a.active{
+    background: #2825c5;
+    color:#fff;
+    border-radius: 6px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+}
+
+select {
+    border-radius: 20px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+.submit-btn {
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <form actiion = p3.php method = "post">
+    <nav>
+        <div class="logo">
+            <img src="./logo.jpg" height="50px" width="50px" />
+        </div>
+        <ul>
+            <li><a class="active" href="#"> Home </a></li>
+            <li><a href="../About Us/index4.html"> About Us </a></li>
+    </nav>
+    <div class="Background">
+        <div class="form-container">
+            <div class="dropdown">
+                <select style="padding: 1rem;" id="Department" name="DEPARTMENT">
+                    <label for="DEPARTMENT">DEPARTMENT</label>
+                    <option value="DEPARTMENT" selected disabled>CSE DEPARTMENT</option>
+                    <option value="Mr Shashank Shetty">Mr Shashank Shetty</option>
+                    <option value="Dr Jyothi Shetty">Dr Jyothi Shetty</option>
+                    <option value="Dr Roshan Fernandes">Dr Roshan Fernandes</option>
+                    <option value="Dr Sannidhan Shetty">Dr Sannidhan Shetty</option>
+                </select><br><br>
+
+                <select name="REASON">
+                    <label for="REASON">REASON</label>
+                    <option value="REASON" selected disabled>REASON</option>
+                    <option value="Problem Solving">Problem Solving</option>
+                    <option value="Difficulty in particular subject">Difficulty in particular subject</option>
+                    <option value="Project Discussion">Project Discussion</option>
+                    <option value="Others">Others</option>
+                </select><br><br>
+
+                <select name="Timimgs">
+                    <label for="TIMINGS">TIMINGS</label>
+                    <option value="TIMINGS" selected disabled>TIMINGS</option>
+                    <option value="10.50am to 11.05am">10.50am to 11.05am</option>
+                    <option value="1.00pm to 1.20pm">1.00pm to 1.20pm</option>
+                    <option value="1.30pm to 1.50pm">1.30pm to 1.50pm</option>
+                    <option value="4.00pm to 4.20pm"></option>
+                </select><br><br>
+
+                <input type="date" name="DATE">
+            </div>
+            <input type="Submit" onclick="document.getElementById('id01').style.display='block'" class="w3-button" value="Submit">
+        </div>
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                        class="w3-button w3-display-topright">&times;</span>
+                    <p>Some text in the Modal..</p>
+                    <p>Some text in the Modal..</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</div>
+<script src="main.js">
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+
+
+    }
+</script>
+</html >
