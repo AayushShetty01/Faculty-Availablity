@@ -1,5 +1,5 @@
 # Faculty-Availablity
-This website is basically made by me to solve one pf the real-time problems faced by students in their college premises.
+This website is basically made by me to solve one pf the real-time problems faced by students in their college premises. The old students as well as freshers from the college face the problem of finding the faculty cabin position and also they do not have an idea whether they are free at that time or not. Through our application we have to users accessiblity one is for students and other is for the faculty. The faculty can just click on available when they are in their cabin and they can also accept meetings which stdents have requested for through our website. 
 
 
 IMPLEMENTATION
