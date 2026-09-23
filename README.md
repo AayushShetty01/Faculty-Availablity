@@ -1,32 +1,39 @@
 # Faculty Availability
 
-A web application designed to help students find faculty members, check availability, and request meetings without needing to locate faculty cabins manually.
+A PHP/MySQL web application that helps students find faculty members, review availability, and submit meeting requests through a simple browser-based workflow.
 
 ## Problem
-Students may need to find a faculty member outside class hours without knowing their location or availability. This project provides a simple web-based workflow for faculty availability and meeting requests.
 
-## Intended workflow
-1. A faculty member registers and signs in.
-2. Faculty availability is represented through the application.
-3. A student selects a faculty member, meeting reason, date, and time.
-4. The request can be stored for the faculty member to review.
+Students often need to contact faculty outside scheduled classes but may not know where or when a faculty member is available. This project explores a lightweight workflow for discovering faculty availability and requesting meetings.
+
+## Core workflow
+
+1. Faculty members register and sign in.
+2. Faculty availability is represented in the application.
+3. Students select a faculty member and provide a meeting reason, date, and time.
+4. Meeting requests can be stored for faculty review.
 
 ## Technology
-- HTML
-- CSS
-- JavaScript
-- PHP
-- MySQL
+
+- Backend: PHP
+- Database: MySQL
+- Frontend: HTML, CSS, JavaScript
+- Local development: XAMPP / PHP server
+
+## Engineering notes
+
+This is an educational project retained as a portfolio example. Repository maintenance includes documentation cleanup, repository hygiene, and automated PHP syntax validation.
+
+For future production hardening, authentication, authorization, CSRF protection, server-side validation, and database access should be reviewed comprehensively.
 
 ## Local setup
-1. Install PHP and MySQL using a local environment such as XAMPP.
-2. Create the database expected by the PHP scripts.
+
+1. Install PHP and MySQL. XAMPP is suitable for local development.
+2. Create the database expected by the application.
 3. Configure the local database connection.
-4. Place the repository under the web server's document root.
-5. Open the login page through the local PHP server.
+4. Place the repository under the PHP web server's document root.
+5. Open the application through the local PHP server.
 
 ## Project status
-Educational/portfolio project. The original implementation is a prototype; this cleanup branch focuses on authentication, documentation, and repository hygiene.
 
-## Security
-Never store plaintext passwords. Database queries should use prepared statements and user input must be validated server-side.
+Educational / portfolio project demonstrating web application fundamentals, database-backed workflows, and ongoing software maintenance.
